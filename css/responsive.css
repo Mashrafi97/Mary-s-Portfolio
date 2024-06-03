@@ -1,0 +1,332 @@
+@media(min-width:320px) and (max-width:639px) {
+   /* nav part start */
+   .menu ul{
+    padding: 10px 0px;
+    background-color: #FFF8F3;
+    height: 180px;
+    width: 200px;
+    margin-top: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.2);
+   }
+   .menu ul a{
+      padding-top: 10px;
+   }
+   .navbar-collapse {
+      flex-basis: 100%;
+      flex-grow: 1;
+      align-items: center;
+      text-align: center;
+    }
+    .menu .one{
+      margin-top: -80px;
+      margin-left: 160px;
+    }
+    .navbar-toggler{
+      border: 2px solid #FD6E0A;
+    }
+    .navbar-toggler:focus{
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 transparent;
+   }
+   /* nav part end */
+
+   /* banner part start */
+   #banner h4{
+      visibility: hidden;
+   }
+   .ban_content{
+      visibility: hidden;
+   }
+   .banner_text{
+      margin-top: -160px;
+      text-align: center;
+   }
+   .banner_text .ban_btn{
+      margin-top: -5px;
+   }
+   .ban_btn a:first-child{
+      padding: 12px 9px;
+      margin-left: -1px;
+      margin-top: 20px;
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 4px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+}
+.ban_btn a:last-child{
+   padding: 12px 13px;
+   margin-left: 20px;
+   margin-top: 20px;
+   color: white;
+   font-size: 16px;
+   font-weight: 600;
+   border-radius: 4px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   -ms-border-radius: 4px;
+   -o-border-radius: 4px;
+}
+#banner{
+   height: 660px;
+}
+   /* banner part end */
+
+   /* about part start */
+   .bg{
+      margin-top: 30px;
+   }
+   .about_text{
+      text-align: center;
+   }
+   .about_text{
+      padding: 34px 0px;
+   }
+   #what{
+      margin-top: 30px;
+   }
+   .what_one{
+      margin-top: 20px;
+      text-align: center;
+   }
+   .what_two{
+      margin-top: 20px;
+      text-align: center;
+   }
+   .what_three{
+      margin-top: 20px;
+      text-align: center;
+   }
+   .what_four{
+      margin-top: 20px;
+      text-align: center;
+   }
+   /* about part end */
+   
+   /* summary part start */
+   .summary_text{
+      margin-top: 30px;
+   }
+   .left_text{
+      margin-top: -80px;
+   }
+   .left_text h3{
+      text-align: center;
+   }
+   .left_right h3{
+      text-align: center;
+   }
+   .summary_one{
+      margin-top: -20px;
+      border-bottom: none;
+      width: auto;
+      border-bottom: 1px solid #D1D1D1;
+      text-align: center;
+  }
+   .summary_two{
+      margin-top: -20px;
+      border-bottom: none;
+      width: auto;
+      border-bottom: 1px solid #D1D1D1;
+      text-align: center;
+  }
+  .summary_three{
+   text-align: center;
+  }
+  .summary_one h6{
+   margin-top: 10px;
+}
+  .summary_two h6{
+   margin-top: 10px;
+}
+  .summary_three h6{
+   margin-top: 10px;
+}
+.left_right{
+   margin-top: 60px;
+}
+   /* summary part end */
+
+   /* footer part start */
+   .left_footer{
+      text-align: center;
+   }
+   .right_footer{
+      text-align: center;
+   }
+   .right_footer .text_one1{
+      width: 270px;
+  }
+  .right_footer .text_two2{
+   width: 270px;
+  }
+  .right_footer button{
+   margin-top: 20px;
+  }
+  .main_footer{
+   margin-top: 30px;
+}
+.left_footer{
+   margin-top: 30px;
+}
+   /* footer part end */
+}
+@media(min-width:640px) and (max-width:767px) {
+   .menu ul{
+      padding: 10px 0px;
+      background-color: #FFF8F3;
+      height: 180px;
+      width: 200px;
+      margin-top: 10px;
+      box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.2);
+     }
+     .menu ul a{
+        padding-top: 10px;
+     }
+     .navbar-brand{
+      margin-left: 20px;
+     }
+     .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        text-align: center;
+      }
+      .menu .one {
+         margin-top: -80px;
+         margin-left: 313px;
+       }
+      .navbar-toggler{
+        border: 2px solid #FD6E0A;
+      }
+      .navbar-toggler:focus{
+      text-decoration: none;
+      outline: 0;
+      box-shadow: 0 0 0 transparent;
+     }
+     #banner h4{
+      font-size: 70px;
+      font-weight: 700;
+      font-family: 'Open Sans', sans-serif;
+      color: rgba(24, 24, 24, 0.15);
+      writing-mode: vertical-lr;
+      position: absolute;
+      left: -16px;
+      top: 16px;
+      transform: rotate(180deg);
+      letter-spacing: 28px;
+  }
+  .ban_btn{
+   text-align: center;
+}
+.banner_text{
+   margin-left: 20px;
+}
+#banner{
+   padding-top: 170px;
+   padding-bottom: 50px;
+}
+.about_text{
+   padding: 60px 0;
+}
+#what{
+   margin-top: 60px;
+}
+.bg{
+   margin-top: 60px;
+}
+.what_three{
+   margin-top: 30px;
+}
+.what_four{
+   margin-top: 30px;
+}
+.summary_text{
+   margin-top: 80px;
+}
+.left_text h3{
+   margin-top: 40px;
+}
+.left_right{
+   margin-top: 60px;
+}
+.main_footer{
+   height: 760px;
+   width: 100%;
+}
+.main_footer{
+   margin-top: 80px;
+}
+.left_footer{
+   margin-top: 80px;
+}
+/* banner part end */
+}
+
+@media(min-width:768px) and (max-width:991px) {
+     #banner h4{
+      font-size: 70px;
+      font-weight: 700;
+      font-family: 'Open Sans', sans-serif;
+      color: rgba(24, 24, 24, 0.15);
+      writing-mode: vertical-lr;
+      position: absolute;
+      left: -16px;
+      top: 16px;
+      transform: rotate(180deg);
+      letter-spacing: 28px;
+  }
+  .navbar-brand{
+   margin-left: 30px;
+  }
+  .main_footer {
+   background-color: #FFF8F3;
+   height: 1024px;
+   width: 100%;
+ }
+  .ban_btn{
+   text-align: center;
+}
+.banner_text{
+   margin-left: 20px;
+}
+#banner{
+   padding-top: 244px;
+   padding-bottom: 70px;
+}
+.banner_text{
+   margin-left: 30px;
+}
+}
+
+@media(min-width:992px) and (max-width:1024px) {
+   #banner h4{
+      font-size: 70px;
+      left: -16px;
+      top: 16px;
+      letter-spacing: 30px;
+  }
+  .navbar-brand{
+   margin-left: 30px;
+  }
+.banner_text{
+   margin-left: 30px;
+}
+#banner{
+   padding-top: 244px;
+   padding-bottom: 70px;
+}
+.ban_btn{
+   text-align: center;
+}
+.ban_content img{
+   margin-left: 100px;
+}
+.banner_text{
+   margin-left: 30px;
+}
+}
